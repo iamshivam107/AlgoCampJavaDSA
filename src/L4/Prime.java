@@ -21,11 +21,12 @@ public class Prime {
         }
 
 
-        if(flag == 1) {
-            System.out.println("Not Prime");
-        }else{
-            System.out.println("Prime");
-
+        if (n < 2) {
+            System.out.println(n + " is not a prime number"); // Numbers less than 2 are not prime
+        } else if (flag == 1) {
+            System.out.println(n + " is not a prime number");
+        } else {
+            System.out.println(n + " is a prime number");
         }
 
         for(int i = 1; i <= 10; i++) {
